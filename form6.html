@@ -1,0 +1,86 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-image: url(image/bg.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        table {
+            margin-top: 150px;
+            border: 5px solid white;
+            background-color: white;
+            margin-left: 200px;
+        }
+
+        input,
+        select {
+            border: none;
+            outline: none;
+            width: 100%;
+            border-bottom: 1px solid gray;
+        }
+        .hello {
+            background-color: rgb(97, 87, 87);
+            color: white;
+            width: 150px;
+            height: 30px;
+        }
+        h1{
+            text-transform: uppercase;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <table width="60%" cellpadding="10px">
+        <form>
+        <tr>
+            <td rowspan="8"><img src="image/girl.png" alt="hello" height="350px" width="200px"></td>
+            <td colspan="2">
+                <h1 style="text-align: center;"> Ragistration Form</h1>
+            </td>
+        </tr>
+        <tr>
+            <td><input type="text" placeholder="First Name"></td>
+            <td><input type="text" placeholder="Last Name"></td>
+        </tr>
+        <tr>
+            <td colspan="2" class="hii"><input type="email" placeholder="Email Address"> </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="hii"><input type="text" placeholder="Phone Number"> </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="hii"><select>
+                    <option value="C">C</option>
+                    <option value="C++">C++</option>
+                    <option value="PHP">PHP</option>
+                    <option value="Java Script">Java Script</option>
+                </select></td>
+        </tr>
+        <tr>
+            <td colspan="2" class="hii"><input type="password" placeholder="Password"> </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="hii"><input type="password" placeholder="Confirm Password"> </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="hii ">
+                <center><button class="hello">Submit</button></center>
+            </td>
+        </tr>
+        </form>
+    </table>
+
+</body>
+
+</html>

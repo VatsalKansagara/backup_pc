@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        table{
+            height: 500px;
+            width: 55%;
+            margin-top: 80px;
+            border: none;
+            outline: none;
+            color: yellow;
+            background-color: black;
+        }
+        .hi{
+            background-color: chocolate;
+            text-align: left;
+        }
+        .hii{
+            background-color: chocolate;
+            text-align: right; 
+            color: white;
+
+        }
+        .nam{
+            text-align: right;
+            padding-right: 15px;
+        }
+        .hello{
+         width: 350px;
+         height: 30px;
+        }
+        select{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <center>
+   <form>
+    <table>
+        <tr>
+            <td class="hi" colspan="2">Sign Up</td>
+        </tr>
+        <tr>
+            <td class="nam">First Name</td>
+            <td><input  class="hello" type="text" placeholder="Enter Your Name.."></td>
+        </tr>
+        <tr>
+            <td class="nam">Last Name</td>
+            <td><input class="hello" type="text" placeholder="Enter Your Name.."></td>
+        </tr>
+        <tr>
+            <td class="nam">father Name</td>
+            <td><input  class="hello" type="text" placeholder="Enter Your Father name" ></td>
+        </tr>
+        <tr>
+            <td class="nam">Date Of Birth</td>
+            <td><input class="hello" type="date"></td>
+        </tr>
+        <tr>
+            <td class="nam">Gender</td>
+            <td class="hello"><input  type="radio" name="Gender">Male
+              <input type="radio" name="Gender">Female</td>
+        </tr>
+        <tr>
+            <td class="nam">Country</td>
+            <td class="hello"><select>
+                <option value="Usa">Usa</option>
+                <option value="India">India</option>
+                <option value="Russia">Russia</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td class="nam">E-mail</td>
+            <td><input class="hello" type="email" placeholder="Enter Email"></td>
+        </tr>
+        <tr>
+            <td class="nam">Phone</td>
+            <td><input class="hello" type="number" placeholder="Enter Mo. Number"></td>
+        </tr>
+        <tr>
+            <td class="nam">Password</td>
+            <td><input class="hello" type="password" placeholder="Enter Password"></td>
+        </tr>
+        <tr>
+            <td class="nam">Conform Password</td>
+            <td><input class="hello" type="password" placeholder="Enter Confirm Password"></td>
+        </tr>
+        <tr>
+            <td class="nam"></td>
+            <td><input  type="checkbox">Alolow Terms And Condition</td>
+        </tr>
+        <tr>
+           
+            <td class="hii" colspan="2"><button type="submit" style="background-color: green;">submit</button>
+                <button type="reset" style="background-color: blue;">reset</button></td> 
+                <td></td>
+        </tr>
+    </table>
+   </form> 
+</center>
+</body>
+</html>
